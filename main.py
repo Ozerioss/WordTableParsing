@@ -3,16 +3,21 @@ import csv
 import pandas
 
 
-
 def readCsvColumns(filename):
     with open('JDD/epkfdcpt.s5_0000121296_20200622_140027', newline='') as csvfile:
         reader = csv.reader(csvfile, delimiter = ';')
         header = next(reader, None)
     header
 
-def readCsvColumnsPanda():
-    data = pandas.read_csv('JDD/epkfdcpt.s5_0000121296_20200622_140027', delimiter=";")
+def readCsvColumnsPanda(filename):
+    data = pandas.read_csv(f'JDD/{filename}', delimiter=";")
     return data.columns
+
+def compareLists(listA, listB):
+    return set(listA).intersection(listB)
+
+def nonMatchingElements(listA, listB):
+    return list(set(listA) - set(listB))
 
 def readWordTable(document):
     document = Document(document)
@@ -41,9 +46,17 @@ def readWordTable(document):
     for label in data:
         labelList.append(label['FIELDNAME'])
 
-    print(labelList)
+    return labelList
 
 
 if __name__ == "__main__":
-    #readWordTable("wordTable.docx")
-    print(readCsvColumnsPanda())
+    wordTableFields = readWordTable("wordTableepkfpppf.docx")
+    headerJdd = readCsvColumnsPanda("epkfpppf.s5_0000121229_20200619_083322")
+
+    print("length spec: ", len(wordTableFields))
+    print("length jdd: ", len(headerJdd))
+
+    comparisonSet = compareLists(wordTableFields, headerJdd)
+    print("matching elements : ", len(comparisonSet))
+    print("Elements in spec but not in JDD : ", nonMatchingElements(wordTableFields, headerJdd))
+    print("Elements in JDD but not in Spec : ", nonMatchingElements(headerJdd, wordTableFields))
