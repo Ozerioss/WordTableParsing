@@ -1,6 +1,7 @@
 from docx import Document
 import csv
 import pandas
+import json
 
 
 def readCsvColumns(filename):
@@ -19,6 +20,18 @@ def matchingElements(listA, listB):
 
 def nonMatchingElements(listA, listB):
     return list(set(listA) - set(listB))
+
+
+def generateJson(filename, word_table):
+    data = {}
+
+    for item in word_table:
+        data[item['FIELDNAME']] = {
+            "description": item['LIBELLE'],
+            "type": item['TYPE']
+        }
+    return data
+
 
 # Function to parse word table 
 ### TODO : check for badly formatted tables 
@@ -43,20 +56,25 @@ def readWordTable(document):
         row_data = dict(zip(keys, text))
         data.append(row_data)
 
+    return data
+    
 
+# Loops on the word table dictionary returns a list of all the field names
+# Useful for the analysisJddSpec function
+def getFieldNameList(word_table):
     # Loop on list and access fieldname
     labelList = []
-    for label in data:
+    for label in word_table:
         labelList.append(label['FIELDNAME'])
 
     return labelList
 
 
-if __name__ == "__main__":
-    word_tables_list = ['epkfdach', 'epkfdcpt', 'epkfdfac','epkfpppf', 'epkfttpd', 'epkfttva']
-
+# Function to assert differences between JDD and Spec
+def analysisJddSpec(word_tables_list):
     for doc_file in word_tables_list:
-        wordTableFields = readWordTable(f"Spec/wordTable{doc_file}.docx")
+    
+        wordTableFields = getFieldNameList(readWordTable(f"Spec/wordTable{doc_file}.docx"))
         headerJdd = readCsvColumnsPanda(f"{doc_file}")
 
         print("length spec: ", len(wordTableFields))
@@ -66,3 +84,16 @@ if __name__ == "__main__":
         print("matching elements : ", len(comparisonSet))
         print("Elements in spec but not in JDD : ", nonMatchingElements(wordTableFields, headerJdd))
         print("Elements in JDD but not in Spec : ", nonMatchingElements(headerJdd, wordTableFields))
+
+
+if __name__ == "__main__":
+    word_tables_list = ['epkfdach', 'epkfdcpt', 'epkfdfac','epkfpppf', 'epkfttpd', 'epkfttva']
+
+    print("Reading word document ...")
+    word_table = readWordTable(f"Spec/wordTableepkfdach.docx")
+    print("Done, generating JSON")
+    data = generateJson('epkfdach', word_table)
+    print("Done !")
+    print(data)
+
+    
