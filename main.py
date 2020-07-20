@@ -9,16 +9,19 @@ def readCsvColumns(filename):
         header = next(reader, None)
     header
 
+# Returns header for csv document
 def readCsvColumnsPanda(filename):
-    data = pandas.read_csv(f'JDD/{filename}', delimiter=";")
+    data = pandas.read_csv(f'JDD/copy/{filename}', delimiter=";")
     return data.columns
 
-def compareLists(listA, listB):
+def matchingElements(listA, listB):
     return set(listA).intersection(listB)
 
 def nonMatchingElements(listA, listB):
     return list(set(listA) - set(listB))
 
+# Function to parse word table 
+### TODO : check for badly formatted tables 
 def readWordTable(document):
     document = Document(document)
     table = document.tables[0]
@@ -50,13 +53,16 @@ def readWordTable(document):
 
 
 if __name__ == "__main__":
-    wordTableFields = readWordTable("wordTableepkfpppf.docx")
-    headerJdd = readCsvColumnsPanda("epkfpppf.s5_0000121229_20200619_083322")
+    word_tables_list = ['epkfdach', 'epkfdcpt', 'epkfdfac','epkfpppf', 'epkfttpd', 'epkfttva']
 
-    print("length spec: ", len(wordTableFields))
-    print("length jdd: ", len(headerJdd))
+    for doc_file in word_tables_list:
+        wordTableFields = readWordTable(f"Spec/wordTable{doc_file}.docx")
+        headerJdd = readCsvColumnsPanda(f"{doc_file}")
 
-    comparisonSet = compareLists(wordTableFields, headerJdd)
-    print("matching elements : ", len(comparisonSet))
-    print("Elements in spec but not in JDD : ", nonMatchingElements(wordTableFields, headerJdd))
-    print("Elements in JDD but not in Spec : ", nonMatchingElements(headerJdd, wordTableFields))
+        print("length spec: ", len(wordTableFields))
+        print("length jdd: ", len(headerJdd))
+
+        comparisonSet = matchingElements(wordTableFields, headerJdd)
+        print("matching elements : ", len(comparisonSet))
+        print("Elements in spec but not in JDD : ", nonMatchingElements(wordTableFields, headerJdd))
+        print("Elements in JDD but not in Spec : ", nonMatchingElements(headerJdd, wordTableFields))
