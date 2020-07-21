@@ -22,15 +22,25 @@ def nonMatchingElements(listA, listB):
     return list(set(listA) - set(listB))
 
 
-def generateJson(filename, word_table):
-    data = {}
+# Generates a Json from the word table
+def generateJson(word_table):
+    data = {'properties': {}}
+    fieldsJson = {}
 
     for item in word_table:
-        data[item['FIELDNAME']] = {
-            "description": item['LIBELLE'],
-            "type": item['TYPE']
-        }
+        fieldsJson[item['FIELDNAME']] =  {
+                "description": item['LIBELLE'],
+                "type": item['TYPE']
+            }
+    data['properties'] = fieldsJson
     return data
+
+# Dumps the Json generated into a file
+# TODO : reorganize paths
+def writeJson(filename, word_table):
+    data = generateJson(word_table)
+    with open(f'json_{filename}', 'w') as output_file:
+        json.dump(data, output_file)
 
 
 # Function to parse word table 
@@ -92,8 +102,7 @@ if __name__ == "__main__":
     print("Reading word document ...")
     word_table = readWordTable(f"Spec/wordTableepkfdach.docx")
     print("Done, generating JSON")
-    data = generateJson('epkfdach', word_table)
+    writeJson('epkfdach', word_table)
     print("Done !")
-    print(data)
 
     
