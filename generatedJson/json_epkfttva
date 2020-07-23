@@ -1,0 +1,40 @@
+{
+    "properties": {
+        "HORODATE": {
+            "description": "TimeStamp",
+            "type": "CHAR"
+        },
+        "KAPPL": {
+            "description": "Application",
+            "type": "CHAR"
+        },
+        "KSCHL": {
+            "description": "Type condition",
+            "type": "CHAR"
+        },
+        "ALAND": {
+            "description": "Pays",
+            "type": "CHAR"
+        },
+        "MWSKZ": {
+            "description": "Code TVA",
+            "type": "CHAR"
+        },
+        "KNUMH": {
+            "description": "No enreg. cond.",
+            "type": "CHAR"
+        },
+        "KOPOS": {
+            "description": "No. condition",
+            "type": "NUMC"
+        },
+        "KBETR": {
+            "description": "Montant",
+            "type": "CURR"
+        },
+        "KONWA": {
+            "description": "Devise condit.",
+            "type": "CUKY"
+        }
+    }
+}

@@ -26,7 +26,7 @@ length spec:  137
 length jdd:  139
 matching elements :  133
 Elements in spec but not in JDD :  ['Code TVA sur CA', "Elément d'OTP", 'Montant HTND DI', 'Pas de quantité']
-Elements in JDD but not in Spec :  ['ZZVALHTNDDI', 'Unnamed: 138', 'PS_PSP_PNR', 'NOQUANTITY', 'Unnamed: 137', 'MWSKZ_BNK']
+Elements in JDD but not in Spec :  ['MWSKZ_BNK', 'PS_PSP_PNR', 'ZZVALHTNDDI', 'NOQUANTITY', 'Unnamed: 137', 'Unnamed: 138']
 
 
 #EPKFTTVA

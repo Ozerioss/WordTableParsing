@@ -1,0 +1,552 @@
+{
+    "properties": {
+        "HORODATE": {
+            "description": "TimeStamp",
+            "type": "CHAR"
+        },
+        "BELNR": {
+            "description": "Nº pièce",
+            "type": "CHAR"
+        },
+        "BUZEI": {
+            "description": "Poste",
+            "type": "NUMC"
+        },
+        "GJAHR": {
+            "description": "Exercice compt.",
+            "type": "NUMC"
+        },
+        "COBL_NR": {
+            "description": "Numéro",
+            "type": "NUMC"
+        },
+        "ARKUEMW": {
+            "description": "TVA - réd.fact.",
+            "type": "CURR"
+        },
+        "ARKUEN": {
+            "description": "Réduction fact.",
+            "type": "CURR"
+        },
+        "BEZNK": {
+            "description": "Cts.ind.acq.npl",
+            "type": "CURR"
+        },
+        "BKTXT": {
+            "description": "Texte d'en-tête",
+            "type": "CHAR"
+        },
+        "BLDAT": {
+            "description": "Date pièce",
+            "type": "DATS"
+        },
+        "BUDAT": {
+            "description": "Date comptable",
+            "type": "DATS"
+        },
+        "BUKRS": {
+            "description": "Société",
+            "type": "CHAR"
+        },
+        "DIFFMW": {
+            "description": "Ecart TVA",
+            "type": "CURR"
+        },
+        "DIFFN": {
+            "description": "Ecart crle fac.",
+            "type": "CURR"
+        },
+        "IVTYP": {
+            "description": "Type IV",
+            "type": "CHAR"
+        },
+        "LIEFFMW": {
+            "description": "TVA ds err.frn.",
+            "type": "CURR"
+        },
+        "LIEFFN": {
+            "description": "Err.fourn.-net",
+            "type": "CURR"
+        },
+        "LIFNR": {
+            "description": "Auteur facture",
+            "type": "CHAR"
+        },
+        "LOGSYS": {
+            "description": "Système logique",
+            "type": "CHAR"
+        },
+        "MAKZMW": {
+            "description": "TVA valid.man.",
+            "type": "CURR"
+        },
+        "MAKZN": {
+            "description": "Mt net val.man.",
+            "type": "CURR"
+        },
+        "MRM_ZLSPR": {
+            "description": "BlcgePaiem.log.",
+            "type": "CHAR"
+        },
+        "Code TVA sur CA": {
+            "description": "Code TVA sur CA",
+            "type": "CHAR"
+        },
+        "RBSTAT": {
+            "description": "Statut fac.",
+            "type": "CHAR"
+        },
+        "RMWWR": {
+            "description": "Mont.brut fact.",
+            "type": "CURR"
+        },
+        "STBLG": {
+            "description": "Annulé avec",
+            "type": "CHAR"
+        },
+        "STJAH": {
+            "description": "Exercice",
+            "type": "NUMC"
+        },
+        "WAERS": {
+            "description": "Devise",
+            "type": "CUKY"
+        },
+        "WMWST1": {
+            "description": "TVA",
+            "type": "CURR"
+        },
+        "XBLNR": {
+            "description": "Référence",
+            "type": "CHAR"
+        },
+        "XRECH": {
+            "description": "Facture",
+            "type": "CHAR"
+        },
+        "ZLSPR": {
+            "description": "Bloc. paiem.",
+            "type": "CHAR"
+        },
+        "BLART": {
+            "description": "Type de pièce",
+            "type": "CHAR"
+        },
+        "CPUDT": {
+            "description": "Saisi le",
+            "type": "DATS"
+        },
+        "FITYP": {
+            "description": "Type de taxe",
+            "type": "CHAR"
+        },
+        "KURSF": {
+            "description": "Cours de change",
+            "type": "DEC"
+        },
+        "MWSKZ1": {
+            "description": "Code TVA",
+            "type": "CHAR"
+        },
+        "VGART": {
+            "description": "Type opération",
+            "type": "CHAR"
+        },
+        "AFNAM": {
+            "description": "Demandeur",
+            "type": "CHAR"
+        },
+        "AREWR": {
+            "description": "Solde EM/EF",
+            "type": "CURR"
+        },
+        "BASME": {
+            "description": "Unité qté base",
+            "type": "UNIT"
+        },
+        "BEWAE": {
+            "description": "Devise cde",
+            "type": "CUKY"
+        },
+        "BPMNG": {
+            "description": "Qté UP",
+            "type": "QUAN"
+        },
+        "BPRBM": {
+            "description": "Qté fact. UP",
+            "type": "QUAN"
+        },
+        "BPREM": {
+            "description": "Qté EF",
+            "type": "QUAN"
+        },
+        "BPRME": {
+            "description": "Unité de prix",
+            "type": "UNIT"
+        },
+        "BPUMN": {
+            "description": "Convers. qtés",
+            "type": "DEC"
+        },
+        "BPUMZ": {
+            "description": "Convers. qtés",
+            "type": "DEC"
+        },
+        "BPWEM": {
+            "description": "Qté EM en UnPrx",
+            "type": "QUAN"
+        },
+        "BSMNG": {
+            "description": "Qté commandée",
+            "type": "QUAN"
+        },
+        "BSTME": {
+            "description": "Unité d'achat",
+            "type": "UNIT"
+        },
+        "EBELN": {
+            "description": "Document achat",
+            "type": "CHAR"
+        },
+        "EBELP": {
+            "description": "Poste",
+            "type": "NUMC"
+        },
+        "EKGRP": {
+            "description": "Grpe acheteurs",
+            "type": "CHAR"
+        },
+        "EKORG": {
+            "description": "Organis. achats",
+            "type": "CHAR"
+        },
+        "EREKZ": {
+            "description": "Facture finale",
+            "type": "CHAR"
+        },
+        "HWAER": {
+            "description": "Devise",
+            "type": "CUKY"
+        },
+        "KNTTP": {
+            "description": "Type imputation",
+            "type": "CHAR"
+        },
+        "KONNR": {
+            "description": "Contrat",
+            "type": "CHAR"
+        },
+        "KTPNR": {
+            "description": "Poste contrat",
+            "type": "NUMC"
+        },
+        "LFBNR": {
+            "description": "Doc.référence",
+            "type": "CHAR"
+        },
+        "LFGJA": {
+            "description": "Ex.pér.en cours",
+            "type": "NUMC"
+        },
+        "LFPOS": {
+            "description": "Poste doc.référ",
+            "type": "NUMC"
+        },
+        "LIFNR2": {
+            "description": "Fournisseur",
+            "type": "CHAR"
+        },
+        "MATKL": {
+            "description": "Grpe marchand.",
+            "type": "CHAR"
+        },
+        "MATNR": {
+            "description": "Article",
+            "type": "CHAR"
+        },
+        "MEINS": {
+            "description": "UQ base",
+            "type": "UNIT"
+        },
+        "MENGE": {
+            "description": "Quantité",
+            "type": "QUAN"
+        },
+        "NETPR": {
+            "description": "Prix net",
+            "type": "CURR"
+        },
+        "NETWR": {
+            "description": "Valeur nette",
+            "type": "CURR"
+        },
+        "Pas de quantité": {
+            "description": "Pas de quantité",
+            "type": "CHAR"
+        },
+        "PEINH": {
+            "description": "Base de prix",
+            "type": "DEC"
+        },
+        "PSTYP": {
+            "description": "Type de poste",
+            "type": "CHAR"
+        },
+        "RBMNG": {
+            "description": "Qté fact.,doc.",
+            "type": "QUAN"
+        },
+        "RBWWR": {
+            "description": "Mont.fact.DE",
+            "type": "CURR"
+        },
+        "REFWR": {
+            "description": "Val.fact.en DE",
+            "type": "CURR"
+        },
+        "REMNG": {
+            "description": "Quantité EF",
+            "type": "QUAN"
+        },
+        "RETPO": {
+            "description": "Poste de retour",
+            "type": "CHAR"
+        },
+        "REWWR": {
+            "description": "Mt facture DE",
+            "type": "CURR"
+        },
+        "SHKZG": {
+            "description": "Débit/Crédit",
+            "type": "CHAR"
+        },
+        "SPGRC": {
+            "description": "Motif blq. qlté",
+            "type": "CHAR"
+        },
+        "SPGRG": {
+            "description": "Motif : qté UP",
+            "type": "CHAR"
+        },
+        "SPGRM": {
+            "description": "Cd blocage qté",
+            "type": "CHAR"
+        },
+        "SPGRP": {
+            "description": "Motif bloc prix",
+            "type": "CHAR"
+        },
+        "SPGRQ": {
+            "description": "Mot.bloc. man.",
+            "type": "CHAR"
+        },
+        "SPGRS": {
+            "description": "MotifBloc.: mnt",
+            "type": "CHAR"
+        },
+        "SPGRT": {
+            "description": "Motif blc date",
+            "type": "CHAR"
+        },
+        "SPGRV": {
+            "description": "Cd bloc projet",
+            "type": "CHAR"
+        },
+        "TBTKZ": {
+            "description": "Chargement ult.",
+            "type": "CHAR"
+        },
+        "TXZ01": {
+            "description": "Désignation",
+            "type": "CHAR"
+        },
+        "UMREN": {
+            "description": "Dénominateur",
+            "type": "DEC"
+        },
+        "UMREZ": {
+            "description": "Numérateur",
+            "type": "DEC"
+        },
+        "WEMNG": {
+            "description": "Entrées",
+            "type": "QUAN"
+        },
+        "WENWR": {
+            "description": "Val. nette DE",
+            "type": "CURR"
+        },
+        "WEPOS": {
+            "description": "Entrée march.",
+            "type": "CHAR"
+        },
+        "WERKS": {
+            "description": "Division",
+            "type": "CHAR"
+        },
+        "WEUNB": {
+            "description": "EM non valoris.",
+            "type": "CHAR"
+        },
+        "WEWWR": {
+            "description": "Valeur EM (DE)",
+            "type": "CURR"
+        },
+        "WRBTR": {
+            "description": "Montant",
+            "type": "CURR"
+        },
+        "KSCHL": {
+            "description": "Type condition",
+            "type": "CHAR"
+        },
+        "MWSKZ": {
+            "description": "Code TVA",
+            "type": "CHAR"
+        },
+        "REEWR": {
+            "description": "Valeur facturée",
+            "type": "CURR"
+        },
+        "REPOS": {
+            "description": "Entrée factures",
+            "type": "CHAR"
+        },
+        "REWRT": {
+            "description": "Montant fact.DI",
+            "type": "CURR"
+        },
+        "ANLN1": {
+            "description": "Immobilisation",
+            "type": "CHAR"
+        },
+        "ANLN2": {
+            "description": "Nº subsidiaire",
+            "type": "CHAR"
+        },
+        "AREWW": {
+            "description": "Solde EM/EF",
+            "type": "CURR"
+        },
+        "AUFNR": {
+            "description": "Ordre",
+            "type": "CHAR"
+        },
+        "BPMNG_F": {
+            "description": "Qté en UP (flott.)",
+            "type": "FLTP"
+        },
+        "FIKRS": {
+            "description": "Périm.financier",
+            "type": "CHAR"
+        },
+        "FIPOS": {
+            "description": "Compte budgét.",
+            "type": "CHAR"
+        },
+        "FISTL": {
+            "description": "Centre fin.",
+            "type": "CHAR"
+        },
+        "FKBER": {
+            "description": "Domaine fonct.",
+            "type": "CHAR"
+        },
+        "GEBER": {
+            "description": "Fonds",
+            "type": "CHAR"
+        },
+        "GSBER": {
+            "description": "Dom.activité",
+            "type": "CHAR"
+        },
+        "KOART": {
+            "description": "Type de compte",
+            "type": "CHAR"
+        },
+        "KOKRS": {
+            "description": "Périmètre ana.",
+            "type": "CHAR"
+        },
+        "KOSTL": {
+            "description": "Centre de coûts",
+            "type": "CHAR"
+        },
+        "KTOPL": {
+            "description": "Plan comptable",
+            "type": "CHAR"
+        },
+        "LSTAR": {
+            "description": "Type d'activité",
+            "type": "CHAR"
+        },
+        "NPLNR": {
+            "description": "Réseau",
+            "type": "CHAR"
+        },
+        "PAOBJNR": {
+            "description": "Objet résultat",
+            "type": "NUMC"
+        },
+        "PRCTR": {
+            "description": "Ctre de profit",
+            "type": "CHAR"
+        },
+        "PS_PSP_PNR": {
+            "description": "Elément d'OTP",
+            "type": "NUMC"
+        },
+        "SAKNR": {
+            "description": "Compte général",
+            "type": "CHAR"
+        },
+        "VORNR": {
+            "description": "Opération",
+            "type": "CHAR"
+        },
+        "BUDGET_PD": {
+            "description": "Période budgét.",
+            "type": "CHAR"
+        },
+        "MWART": {
+            "description": "Type de TVA",
+            "type": "CHAR"
+        },
+        "ZEKKN": {
+            "description": "N° imputation",
+            "type": "NUMC"
+        },
+        "ROCANCEL": {
+            "description": "Ty.enreg. extract.",
+            "type": "CHAR"
+        },
+        "ZZSYDAT": {
+            "description": "Date cde achat",
+            "type": "DATS"
+        },
+        "ZZPBEST": {
+            "description": "Adresse cde",
+            "type": "CHAR"
+        },
+        "ZZVALHTNDDI": {
+            "description": "Montant HTND DI",
+            "type": "CURR"
+        },
+        "ZZECRTQTE": {
+            "description": "Mtt écart qté fact.",
+            "type": "CURR"
+        },
+        "ZZVALTTCDI": {
+            "description": "Montant TTC DI",
+            "type": "CURR"
+        },
+        "ZZTERM": {
+            "description": "Cond. paiemt",
+            "type": "CHAR"
+        },
+        "ZZLIBCMDE": {
+            "description": "Texte",
+            "type": "CHAR"
+        }
+    }
+}

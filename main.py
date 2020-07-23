@@ -39,8 +39,8 @@ def generateJson(word_table):
 # TODO : reorganize paths
 def writeJson(filename, word_table):
     data = generateJson(word_table)
-    with open(f'json_{filename}', 'w') as output_file:
-        json.dump(data, output_file)
+    with open(f'generatedJson/json_{filename}', 'w', encoding='utf-8') as output_file:
+        json.dump(data, output_file, ensure_ascii=False, indent=4)
 
 
 # Function to parse word table 
@@ -99,10 +99,11 @@ def analysisJddSpec(word_tables_list):
 if __name__ == "__main__":
     word_tables_list = ['epkfdach', 'epkfdcpt', 'epkfdfac','epkfpppf', 'epkfttpd', 'epkfttva']
 
-    print("Reading word document ...")
-    word_table = readWordTable(f"Spec/wordTableepkfdach.docx")
-    print("Done, generating JSON")
-    writeJson('epkfdach', word_table)
-    print("Done !")
+    for filename in word_tables_list:
+        print("Reading word document ...")
+        word_table = readWordTable(f"Spec/wordTable{filename}.docx")
+        print("Done, generating JSON")
+        writeJson(filename, word_table)
+        print("Done !")
 
     

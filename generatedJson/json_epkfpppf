@@ -1,0 +1,244 @@
+{
+    "properties": {
+        "HORODATE": {
+            "description": "",
+            "type": "CHAR"
+        },
+        "AUSBK": {
+            "description": "Sté source",
+            "type": "CHAR"
+        },
+        "BUKRS": {
+            "description": "Société",
+            "type": "CHAR"
+        },
+        "BELNR": {
+            "description": "Nº pièce",
+            "type": "CHAR"
+        },
+        "PERIV": {
+            "description": "Version exerc.",
+            "type": "CHAR"
+        },
+        "GJAHR": {
+            "description": "Exercice compt.",
+            "type": "NUMC"
+        },
+        "KTOPL": {
+            "description": "Plan comptable",
+            "type": "CHAR"
+        },
+        "BSTAT": {
+            "description": "Statut pièce",
+            "type": "CHAR"
+        },
+        "BLART": {
+            "description": "Type de pièce",
+            "type": "CHAR"
+        },
+        "BLDAT": {
+            "description": "Date pièce",
+            "type": "DATS"
+        },
+        "BUDAT": {
+            "description": "Date comptable",
+            "type": "DATS"
+        },
+        "MONAT": {
+            "description": "Période",
+            "type": "NUMC"
+        },
+        "WWERT": {
+            "description": "Date conversion",
+            "type": "DATS"
+        },
+        "CPUDT": {
+            "description": "Saisi le",
+            "type": "DATS"
+        },
+        "CPUTM": {
+            "description": "Saisie à",
+            "type": "TIMS"
+        },
+        "AEDAT": {
+            "description": "modifié le",
+            "type": "DATS"
+        },
+        "UPDDT": {
+            "description": "Dernière MAJ",
+            "type": "DATS"
+        },
+        "UPDTM": {
+            "description": "Saisie à",
+            "type": "TIMS"
+        },
+        "USNAM": {
+            "description": "Utilisateur",
+            "type": "CHAR"
+        },
+        "TCODE": {
+            "description": "Code transaction",
+            "type": "CHAR"
+        },
+        "BVORG": {
+            "description": "N° intersoc.",
+            "type": "CHAR"
+        },
+        "XBLNR": {
+            "description": "Référence",
+            "type": "CHAR"
+        },
+        "BKTXT": {
+            "description": "Texte d'en-tête",
+            "type": "CHAR"
+        },
+        "BZKEY": {
+            "description": "Poste",
+            "type": "NUMC"
+        },
+        "BSCHL": {
+            "description": "Clé comptabil.",
+            "type": "CHAR"
+        },
+        "UMSKZ": {
+            "description": "Code CGS",
+            "type": "CHAR"
+        },
+        "UMSKS": {
+            "description": "Classe opérat.",
+            "type": "CHAR"
+        },
+        "SHKZG": {
+            "description": "Débit/Crédit",
+            "type": "CHAR"
+        },
+        "GSBER": {
+            "description": "Dom.activité",
+            "type": "CHAR"
+        },
+        "PARGB": {
+            "description": "D.A. parten.",
+            "type": "CHAR"
+        },
+        "MWSKZ": {
+            "description": "Code TVA",
+            "type": "CHAR"
+        },
+        "DMBTR": {
+            "description": "Montant DI",
+            "type": "CURR"
+        },
+        "HWAER": {
+            "description": "Devise interne",
+            "type": "CUKY"
+        },
+        "WRBTR": {
+            "description": "Montant",
+            "type": "CURR"
+        },
+        "WAERS": {
+            "description": "Devise",
+            "type": "CUKY"
+        },
+        "HWMET": {
+            "description": "                    ",
+            "type": "CHAR"
+        },
+        "MWSTS": {
+            "description": "TVA en DI",
+            "type": "CURR"
+        },
+        "WMWST": {
+            "description": "Montant TVA",
+            "type": "CURR"
+        },
+        "HWBAS": {
+            "description": "Mnt base DI",
+            "type": "CURR"
+        },
+        "FWBAS": {
+            "description": "Mnt de base",
+            "type": "CURR"
+        },
+        "MWART": {
+            "description": "Type de TVA",
+            "type": "CHAR"
+        },
+        "SGTXT": {
+            "description": "Texte",
+            "type": "CHAR"
+        },
+        "HKONT": {
+            "description": "Cpte gén.",
+            "type": "CHAR"
+        },
+        "LIFNR": {
+            "description": "Fournisseur",
+            "type": "CHAR"
+        },
+        "ZFBDT": {
+            "description": "Date de base",
+            "type": "DATS"
+        },
+        "ZTERM": {
+            "description": "Cond. paiemt",
+            "type": "CHAR"
+        },
+        "AWTYP": {
+            "description": "Opé de réf.",
+            "type": "CHAR"
+        },
+        "AWKEY": {
+            "description": "Clé de réf.",
+            "type": "CHAR"
+        },
+        "VBUND": {
+            "description": "Sté S/L parten.",
+            "type": "CHAR"
+        },
+        "FKBER": {
+            "description": "Domaine fonct.",
+            "type": "CHAR"
+        },
+        "BEWAR": {
+            "description": "Type de flux",
+            "type": "CHAR"
+        },
+        "ZUONR": {
+            "description": "Affectation",
+            "type": "CHAR"
+        },
+        "XREF1": {
+            "description": "Clé de réf. 1",
+            "type": "CHAR"
+        },
+        "XREF2": {
+            "description": "Clé de réf. 2",
+            "type": "CHAR"
+        },
+        "XREF3": {
+            "description": "Clé de réf. 3",
+            "type": "CHAR"
+        },
+        "ZLSCH": {
+            "description": "Mode pmt",
+            "type": "CHAR"
+        },
+        "SKFBT": {
+            "description": "Base escmpte",
+            "type": "CURR"
+        },
+        "ZBD1T": {
+            "description": "Jours 1",
+            "type": "DEC"
+        },
+        "ZBD2T": {
+            "description": "Jours 2",
+            "type": "DEC"
+        },
+        "ZBD3T": {
+            "description": "Jours nets",
+            "type": "DEC"
+        }
+    }
+}

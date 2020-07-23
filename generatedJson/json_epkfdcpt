@@ -1,0 +1,872 @@
+{
+    "properties": {
+        "HORODATE": {
+            "description": "TimeStamp",
+            "type": "CHAR"
+        },
+        "BUKRS": {
+            "description": "Société",
+            "type": "CHAR"
+        },
+        "DOCNR": {
+            "description": "Numéro pièce GL",
+            "type": "CHAR"
+        },
+        "DOCLN": {
+            "description": "Poste GL",
+            "type": "CHAR"
+        },
+        "RLDNR": {
+            "description": "Ledger",
+            "type": "CHAR"
+        },
+        "RFISCVAR": {
+            "description": "Version exerc.comp",
+            "type": "CHAR"
+        },
+        "RFISCPER": {
+            "description": "Exercice/période",
+            "type": "NUMC"
+        },
+        "ANLN1": {
+            "description": "Immobilisation",
+            "type": "CHAR"
+        },
+        "ANLN2": {
+            "description": "N° subsidiaire",
+            "type": "CHAR"
+        },
+        "AUFNR": {
+            "description": "Ordre",
+            "type": "CHAR"
+        },
+        "AUGBL": {
+            "description": "Pièce rappr.",
+            "type": "CHAR"
+        },
+        "AUGDT": {
+            "description": "Rapprochement",
+            "type": "DATS"
+        },
+        "BELNR": {
+            "description": "Nº pièce",
+            "type": "CHAR"
+        },
+        "BLART": {
+            "description": "Type de pièce",
+            "type": "CHAR"
+        },
+        "BLDAT": {
+            "description": "Date pièce",
+            "type": "DATS"
+        },
+        "BSCHL": {
+            "description": "Clé comptabil.",
+            "type": "CHAR"
+        },
+        "BSTAT": {
+            "description": "Statut pièce",
+            "type": "CHAR"
+        },
+        "BUDAT": {
+            "description": "Date comptable",
+            "type": "DATS"
+        },
+        "BUZEI": {
+            "description": "Poste",
+            "type": "NUMC"
+        },
+        "BWWRT": {
+            "description": "Mtant évalué",
+            "type": "CURR"
+        },
+        "BWWR2": {
+            "description": "Mtant éval. DI2",
+            "type": "CURR"
+        },
+        "BWWR3": {
+            "description": "Mtant éval. DI3",
+            "type": "CURR"
+        },
+        "DMSHB": {
+            "description": "Mtant en DI",
+            "type": "CURR"
+        },
+        "HWAER": {
+            "description": "Devise interne",
+            "type": "CUKY"
+        },
+        "DMBE2": {
+            "description": "Mtant en DI2",
+            "type": "CURR"
+        },
+        "HWAE2": {
+            "description": "Dev.interne 2",
+            "type": "CUKY"
+        },
+        "DMBE3": {
+            "description": "Mtant en DI3",
+            "type": "CURR"
+        },
+        "HWAE3": {
+            "description": "Dev.interne 3",
+            "type": "CUKY"
+        },
+        "EBELN": {
+            "description": "Document achat",
+            "type": "CHAR"
+        },
+        "EBELP": {
+            "description": "Poste",
+            "type": "NUMC"
+        },
+        "ETEN2": {
+            "description": "Echéance",
+            "type": "NUMC"
+        },
+        "FAEDT": {
+            "description": "Date d'échéance",
+            "type": "DATS"
+        },
+        "FILKD": {
+            "description": "Succursale",
+            "type": "CHAR"
+        },
+        "GJAHR": {
+            "description": "Exercice compt.",
+            "type": "NUMC"
+        },
+        "GSBER": {
+            "description": "Dom.activité",
+            "type": "CHAR"
+        },
+        "JAMON": {
+            "description": "Année/Mois",
+            "type": "CHAR"
+        },
+        "KOART": {
+            "description": "Type de compte",
+            "type": "CHAR"
+        },
+        "KONTO": {
+            "description": "Compte",
+            "type": "CHAR"
+        },
+        "KOSTL": {
+            "description": "Centre de coûts",
+            "type": "CHAR"
+        },
+        "MABER": {
+            "description": "Domaine relance",
+            "type": "CHAR"
+        },
+        "MADAT": {
+            "description": "Dern.relance",
+            "type": "DATS"
+        },
+        "MANSP": {
+            "description": "Bloc.relance",
+            "type": "CHAR"
+        },
+        "MANST": {
+            "description": "Niveau de rel.",
+            "type": "NUMC"
+        },
+        "MONAT": {
+            "description": "Période",
+            "type": "NUMC"
+        },
+        "MSCHL": {
+            "description": "Clé de relance",
+            "type": "CHAR"
+        },
+        "MWSKZ": {
+            "description": "Code TVA",
+            "type": "CHAR"
+        },
+        "POSN2": {
+            "description": "Poste",
+            "type": "NUMC"
+        },
+        "PRCTR": {
+            "description": "Ctre de profit",
+            "type": "CHAR"
+        },
+        "QBSHB": {
+            "description": "Montant RetSrce",
+            "type": "CURR"
+        },
+        "QSFBT": {
+            "description": "Mtant exempté DH",
+            "type": "CURR"
+        },
+        "QSSHB": {
+            "description": "Mtant base DH",
+            "type": "CURR"
+        },
+        "REBZG": {
+            "description": "Réf. fact.",
+            "type": "CHAR"
+        },
+        "SAMNR": {
+            "description": "Fact.groupée",
+            "type": "NUMC"
+        },
+        "SGTXT": {
+            "description": "Texte",
+            "type": "CHAR"
+        },
+        "SHKZG": {
+            "description": "Débit/Crédit",
+            "type": "CHAR"
+        },
+        "SKFBT": {
+            "description": "Base d'escompte",
+            "type": "CURR"
+        },
+        "WSKTO": {
+            "description": "Mtant escompte",
+            "type": "CURR"
+        },
+        "SKNTO": {
+            "description": "Mtant escompte DI",
+            "type": "CURR"
+        },
+        "STAKZ": {
+            "description": "Pos. pr mémoire",
+            "type": "CHAR"
+        },
+        "UMSKS": {
+            "description": "Classe opérat.",
+            "type": "CHAR"
+        },
+        "UMSKZ": {
+            "description": "Code CGS",
+            "type": "CHAR"
+        },
+        "UZAWE": {
+            "description": "Suppl.mode pmt",
+            "type": "CHAR"
+        },
+        "VALUT": {
+            "description": "Date valeur",
+            "type": "DATS"
+        },
+        "VBEL2": {
+            "description": "Document vente",
+            "type": "CHAR"
+        },
+        "VBELN": {
+            "description": "Facture",
+            "type": "CHAR"
+        },
+        "VBEWA": {
+            "description": "Type de flux",
+            "type": "CHAR"
+        },
+        "VBUND": {
+            "description": "Sté S/L parten.",
+            "type": "CHAR"
+        },
+        "VERTN": {
+            "description": "N° de contrat",
+            "type": "CHAR"
+        },
+        "VERTT": {
+            "description": "Type contrat",
+            "type": "CHAR"
+        },
+        "VERZ1": {
+            "description": "Retard esc. 1",
+            "type": "DEC"
+        },
+        "VERZN": {
+            "description": "Retard net",
+            "type": "DEC"
+        },
+        "WERKS": {
+            "description": "Division",
+            "type": "CHAR"
+        },
+        "WRSHB": {
+            "description": "MontantDev.doc.",
+            "type": "CURR"
+        },
+        "WAERS": {
+            "description": "Devise",
+            "type": "CUKY"
+        },
+        "WVERW": {
+            "description": "Utilisation",
+            "type": "CHAR"
+        },
+        "XBLNR": {
+            "description": "Référence",
+            "type": "CHAR"
+        },
+        "XSTRP": {
+            "description": "Litigieux",
+            "type": "CHAR"
+        },
+        "XZAHL": {
+            "description": "Opér. pmt",
+            "type": "CHAR"
+        },
+        "ZALDT": {
+            "description": "Date paiement",
+            "type": "DATS"
+        },
+        "ZBD1P": {
+            "description": "Escompte 1",
+            "type": "DEC"
+        },
+        "ZBD1T": {
+            "description": "Jours 1",
+            "type": "DEC"
+        },
+        "ZBD2P": {
+            "description": "Escompte 2",
+            "type": "DEC"
+        },
+        "ZBD2T": {
+            "description": "Jours 2",
+            "type": "DEC"
+        },
+        "ZBD3T": {
+            "description": "Jours nets",
+            "type": "DEC"
+        },
+        "ZFBDT": {
+            "description": "Date de base",
+            "type": "DATS"
+        },
+        "ZINSZ": {
+            "description": "Montant intér.",
+            "type": "CURR"
+        },
+        "ZLSCH": {
+            "description": "Mode pmt",
+            "type": "CHAR"
+        },
+        "ZLSPR": {
+            "description": "Bloc. paiem.",
+            "type": "CHAR"
+        },
+        "ZTERM": {
+            "description": "Cond. paiemt",
+            "type": "CHAR"
+        },
+        "ZUONR": {
+            "description": "Affectation",
+            "type": "CHAR"
+        },
+        "XREF1": {
+            "description": "Clé de réf. 1",
+            "type": "CHAR"
+        },
+        "XREF2": {
+            "description": "Clé de réf. 2",
+            "type": "CHAR"
+        },
+        "XARCH": {
+            "description": "Archive",
+            "type": "CHAR"
+        },
+        "RSTGR": {
+            "description": "Motif écart",
+            "type": "CHAR"
+        },
+        "ASKTO": {
+            "description": "Mnt esc. act.",
+            "type": "CURR"
+        },
+        "KURSE": {
+            "description": "Tx/change eff.",
+            "type": "DEC"
+        },
+        "REBZT": {
+            "description": "                    ",
+            "type": "CHAR"
+        },
+        "PSWSL": {
+            "description": "Dev. Grd livre",
+            "type": "CUKY"
+        },
+        "PSWBT": {
+            "description": "Mtant grand livre",
+            "type": "CURR"
+        },
+        "HKONT": {
+            "description": "Cpte gén.",
+            "type": "CHAR"
+        },
+        "XNEGP": {
+            "description": "Ecriture nég.",
+            "type": "CHAR"
+        },
+        "ZBFIX": {
+            "description": "Fixe",
+            "type": "CHAR"
+        },
+        "RFZEI": {
+            "description": "Poste carte pmt",
+            "type": "NUMC"
+        },
+        "CCBTC": {
+            "description": "Décompte",
+            "type": "CHAR"
+        },
+        "KKBER": {
+            "description": "Dom.ctrl.crédit",
+            "type": "CHAR"
+        },
+        "XREF3": {
+            "description": "Clé de réf. 3",
+            "type": "CHAR"
+        },
+        "DTWS1": {
+            "description": "Instruction 1",
+            "type": "NUMC"
+        },
+        "DTWS2": {
+            "description": "Instruction 2",
+            "type": "NUMC"
+        },
+        "DTWS3": {
+            "description": "Instruction 3",
+            "type": "NUMC"
+        },
+        "DTWS4": {
+            "description": "Instruction 4",
+            "type": "NUMC"
+        },
+        "ABSBT": {
+            "description": "Montant garanti",
+            "type": "CURR"
+        },
+        "KKBWR": {
+            "description": "Dev. DCC",
+            "type": "CUKY"
+        },
+        "PROJK": {
+            "description": "Elément d'OTP",
+            "type": "CHAR"
+        },
+        "XPYPR": {
+            "description": "Pmt en cours",
+            "type": "CHAR"
+        },
+        "KIDNO": {
+            "description": "Réf.paiement",
+            "type": "CHAR"
+        },
+        "XAUGP": {
+            "description": "Rapproché",
+            "type": "CHAR"
+        },
+        "BUPLA": {
+            "description": "Site d'activité",
+            "type": "CHAR"
+        },
+        "SECCO": {
+            "description": "Section DH",
+            "type": "CHAR"
+        },
+        "GKART": {
+            "description": "Tp cpt.ctpartie",
+            "type": "CHAR"
+        },
+        "GKONT": {
+            "description": "Cpt.contrepart.",
+            "type": "CHAR"
+        },
+        "PYCUR": {
+            "description": "Dev. paiemt",
+            "type": "CUKY"
+        },
+        "PYAMT": {
+            "description": "Mtant en DP",
+            "type": "CURR"
+        },
+        "PYORD": {
+            "description": "Ordre paiement",
+            "type": "CHAR"
+        },
+        "XRAGL": {
+            "description": "                    ",
+            "type": "CHAR"
+        },
+        "CESSION_KZ": {
+            "description": "Code cession",
+            "type": "CHAR"
+        },
+        "BUZID": {
+            "description": "ID ligne écr.",
+            "type": "CHAR"
+        },
+        "AUGGJ": {
+            "description": "Exerc. rappr.",
+            "type": "NUMC"
+        },
+        "AGZEI": {
+            "description": "Pos. rappr.",
+            "type": "DEC"
+        },
+        "LONGNUM": {
+            "description": "N° doc. config.",
+            "type": "CHAR"
+        },
+        "AWSYS": {
+            "description": "Syst.log.",
+            "type": "CHAR"
+        },
+        "AWTYP": {
+            "description": "Opé de réf.",
+            "type": "CHAR"
+        },
+        "BDIFF": {
+            "description": "Diff. évaluat.",
+            "type": "CURR"
+        },
+        "BDIF2": {
+            "description": "Diff. d'évaluation 2",
+            "type": "CURR"
+        },
+        "BDIF3": {
+            "description": "Diff. d'évaluation 3",
+            "type": "CURR"
+        },
+        "BEWAR": {
+            "description": "Type de flux",
+            "type": "CHAR"
+        },
+        "DABRZ": {
+            "description": "Date de référ.",
+            "type": "DATS"
+        },
+        "DMBTR": {
+            "description": "Montant DI",
+            "type": "CURR"
+        },
+        "FKBER": {
+            "description": "Domaine fonct.",
+            "type": "CHAR"
+        },
+        "FKBER_LONG": {
+            "description": "Domaine fonct.",
+            "type": "CHAR"
+        },
+        "GLVOR": {
+            "description": "Opérat. com.",
+            "type": "CHAR"
+        },
+        "IMKEY": {
+            "description": "Clé objet immo.",
+            "type": "CHAR"
+        },
+        "KOKRS": {
+            "description": "Périmètre ana.",
+            "type": "CHAR"
+        },
+        "KSTAR": {
+            "description": "Nat. comptable",
+            "type": "CHAR"
+        },
+        "KUNNR": {
+            "description": "Client",
+            "type": "CHAR"
+        },
+        "LIFNR": {
+            "description": "Fournisseur",
+            "type": "CHAR"
+        },
+        "MEINS": {
+            "description": "UQ base",
+            "type": "UNIT"
+        },
+        "MENGE": {
+            "description": "Quantité",
+            "type": "QUAN"
+        },
+        "PARGB": {
+            "description": "D.A. parten.",
+            "type": "CHAR"
+        },
+        "PERIO": {
+            "description": "Période/exercice",
+            "type": "NUMC"
+        },
+        "PFKBER": {
+            "description": "Dom.fct part.",
+            "type": "CHAR"
+        },
+        "PKOSTL": {
+            "description": "Centre parten.",
+            "type": "CHAR"
+        },
+        "POPER": {
+            "description": "Période cptable",
+            "type": "NUMC"
+        },
+        "PPRCT": {
+            "description": "CtreProfPa",
+            "type": "CHAR"
+        },
+        "PSEGMENT": {
+            "description": "Segment part.",
+            "type": "CHAR"
+        },
+        "PS_PSP_PNR": {
+            "description": "Elément d'OTP",
+            "type": "NUMC"
+        },
+        "RYEAR": {
+            "description": "Exercice GL",
+            "type": "NUMC"
+        },
+        "SAKNR": {
+            "description": "Compte général",
+            "type": "CHAR"
+        },
+        "SEGMENT": {
+            "description": "Segment",
+            "type": "CHAR"
+        },
+        "WRBTR": {
+            "description": "Montant",
+            "type": "CURR"
+        },
+        "XOPVW": {
+            "description": "Gestion PNS",
+            "type": "CHAR"
+        },
+        "LDGRP": {
+            "description": "Groupe de ledgers",
+            "type": "CHAR"
+        },
+        "XLGCLR": {
+            "description": "Rapp. spéc. GL",
+            "type": "CHAR"
+        },
+        "AWKEY": {
+            "description": "Clé de réf.",
+            "type": "CHAR"
+        },
+        "CPUDT": {
+            "description": "Saisi le",
+            "type": "DATS"
+        },
+        "TIMESTAMP": {
+            "description": "Horodatage",
+            "type": "DEC"
+        },
+        "MANDT": {
+            "description": "Mandant",
+            "type": "CLNT"
+        },
+        "UPMOD": {
+            "description": "Mode mise à jr",
+            "type": "CHAR"
+        },
+        "RRCTY": {
+            "description": "Type enregistr.",
+            "type": "CHAR"
+        },
+        "RVERS": {
+            "description": "Version",
+            "type": "CHAR"
+        },
+        "FISCVAR": {
+            "description": "Version exerc.comp.",
+            "type": "CHAR"
+        },
+        "FISCPER": {
+            "description": "Exercice/période",
+            "type": "NUMC"
+        },
+        "KTOPL": {
+            "description": "Plan comptable",
+            "type": "CHAR"
+        },
+        "PS_POSID": {
+            "description": "Elément d'OTP",
+            "type": "CHAR"
+        },
+        "CURT2": {
+            "description": "Type devise DI2",
+            "type": "CHAR"
+        },
+        "CURT3": {
+            "description": "Type devise DI3",
+            "type": "CHAR"
+        },
+        "DMHAB": {
+            "description": "Mtant créd.en DI",
+            "type": "CURR"
+        },
+        "DMHA2": {
+            "description": "Mtant créd. DI2",
+            "type": "CURR"
+        },
+        "DMHA3": {
+            "description": "Mtant créd. DI3",
+            "type": "CURR"
+        },
+        "DMSOL": {
+            "description": "Mtant débit DI",
+            "type": "CURR"
+        },
+        "DMSO2": {
+            "description": "Mtant débit DI2",
+            "type": "CURR"
+        },
+        "DMSO3": {
+            "description": "Mtant débit DI3",
+            "type": "CURR"
+        },
+        "DMSH2": {
+            "description": "Mtant D/C DI2",
+            "type": "CURR"
+        },
+        "DMSH3": {
+            "description": "Mtant D/C DI3",
+            "type": "CURR"
+        },
+        "WRHAB": {
+            "description": "Mt.crédit en DP",
+            "type": "CURR"
+        },
+        "WRSOL": {
+            "description": "Mt.au débit DP",
+            "type": "CURR"
+        },
+        "FIKRS": {
+            "description": "Périm.financier",
+            "type": "CHAR"
+        },
+        "GEBER": {
+            "description": "Fonds",
+            "type": "CHAR"
+        },
+        "GRANT_NBR": {
+            "description": "Subvention",
+            "type": "CHAR"
+        },
+        "PGEBER": {
+            "description": "Fonds parten.",
+            "type": "CHAR"
+        },
+        "PGRANT_NBR": {
+            "description": "Subv. parten.",
+            "type": "CHAR"
+        },
+        "BUDGET_PD": {
+            "description": "Période budgét.",
+            "type": "CHAR"
+        },
+        "PBUDGET_PD": {
+            "description": "Part.pér.budgét",
+            "type": "CHAR"
+        },
+        "ZZUSNAME": {
+            "description": "Nom utilisateur",
+            "type": "CHAR"
+        },
+        "ZZNOSPLIT": {
+            "description": "Numéro",
+            "type": "NUMC"
+        },
+        "ZZRBLART": {
+            "description": "Type de pièce",
+            "type": "CHAR"
+        },
+        "ZZPARK_DAT": {
+            "description": "Date",
+            "type": "DATS"
+        },
+        "ZZPARK_TIM": {
+            "description": "Saisie à",
+            "type": "TIMS"
+        },
+        "ZZPOST_DAT": {
+            "description": "Date",
+            "type": "DATS"
+        },
+        "ZZPOST_TIM": {
+            "description": "Saisie à",
+            "type": "TIMS"
+        },
+        "ZZACER": {
+            "description": "Réserve",
+            "type": "CHAR"
+        },
+        "ZZSIMCHUSER": {
+            "description": "Document modifié par",
+            "type": "CHAR"
+        },
+        "ZZXREF1_HD": {
+            "description": "Clé_référence_1",
+            "type": "CHAR"
+        },
+        "ZZAWREF": {
+            "description": "Document réf.",
+            "type": "CHAR"
+        },
+        "ZZAEDAT": {
+            "description": "Modifié le",
+            "type": "DATS"
+        },
+        "ZZBKTXT": {
+            "description": "Texte d'en-tête",
+            "type": "CHAR"
+        },
+        "ZZMWART": {
+            "description": "Type de TVA",
+            "type": "CHAR"
+        },
+        "ALTKT": {
+            "description": "N° compte du groupe",
+            "type": "CHAR"
+        },
+        "ANBWA": {
+            "description": "Cd.mouvement",
+            "type": "CHAR"
+        },
+        "MATNR": {
+            "description": "Article",
+            "type": "CHAR"
+        },
+        "XINVE": {
+            "description": "Code invest.",
+            "type": "CHAR"
+        },
+        "XREVERSAL": {
+            "description": "Ind. ctre-pass.",
+            "type": "CHAR"
+        },
+        "XUMSW": {
+            "description": "Incidence s/C.A",
+            "type": "CHAR"
+        },
+        "TXBHW": {
+            "description": "                    ",
+            "type": "CURR"
+        },
+        "TXBFW": {
+            "description": "                    ",
+            "type": "CURR"
+        },
+        "ZZREBZJ": {
+            "description": "Exercice de la pièce de référence",
+            "type": "NUMC"
+        },
+        "ZZREBZZ": {
+            "description": "No de poste de la pièce de référence",
+            "type": "NUMC"
+        },
+        "ZZCOSTCTR": {
+            "description": "Centre de Cout",
+            "type": "CHAR"
+        }
+    }
+}

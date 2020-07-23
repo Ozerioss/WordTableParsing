@@ -1,0 +1,708 @@
+{
+    "properties": {
+        "HORODATE": {
+            "description": "",
+            "type": "CHAR"
+        },
+        "EBELN": {
+            "description": "Document d’achat",
+            "type": "CHAR"
+        },
+        "BWVORG": {
+            "description": "Opération Transfert",
+            "type": "NUMC"
+        },
+        "EBELP": {
+            "description": "Poste",
+            "type": "NUMC"
+        },
+        "ZZ_BELNR": {
+            "description": "Doc article",
+            "type": "CHAR"
+        },
+        "ZZ_BUZEI": {
+            "description": "Poste doc art",
+            "type": "NUMC"
+        },
+        "ZZ_GJAHR": {
+            "description": "Exerc. Doc. art",
+            "type": "NUMC"
+        },
+        "PERIV": {
+            "description": "Version d’exercice",
+            "type": "CHAR"
+        },
+        "ROCANCEL": {
+            "description": "Code annul.",
+            "type": "CHAR"
+        },
+        "BEDAT": {
+            "description": "Date document",
+            "type": "DATS"
+        },
+        "BSART": {
+            "description": "Type document",
+            "type": "CHAR"
+        },
+        "BSTYP": {
+            "description": "Catégorie doc.",
+            "type": "CHAR"
+        },
+        "BUDAT": {
+            "description": "Date comptable",
+            "type": "DATS"
+        },
+        "EKGRP": {
+            "description": "Grpe acheteurs",
+            "type": "CHAR"
+        },
+        "EKORG": {
+            "description": "Organis. achats",
+            "type": "CHAR"
+        },
+        "HWAER": {
+            "description": "Devise interne",
+            "type": "CUKY"
+        },
+        "KDATB": {
+            "description": "Début pér.valid",
+            "type": "DATS"
+        },
+        "KDATE": {
+            "description": "Fin validité",
+            "type": "DATS"
+        },
+        "LBLIF": {
+            "description": "Four. récepteur",
+            "type": "CHAR"
+        },
+        "LIFNR": {
+            "description": "Fournisseur",
+            "type": "CHAR"
+        },
+        "LIFRE": {
+            "description": "Auteur facture",
+            "type": "CHAR"
+        },
+        "LLIEF": {
+            "description": "Four. livraison",
+            "type": "CHAR"
+        },
+        "LOGSY": {
+            "description": "Syst.log.",
+            "type": "CHAR"
+        },
+        "ORGLOGSY": {
+            "description": "Syst.log.",
+            "type": "CHAR"
+        },
+        "RESWK": {
+            "description": "Divis.cédante",
+            "type": "CHAR"
+        },
+        "STATU": {
+            "description": "Statut",
+            "type": "CHAR"
+        },
+        "SYDAT": {
+            "description": "Date de saisie",
+            "type": "DATS"
+        },
+        "WAERS": {
+            "description": "Devise cde",
+            "type": "CUKY"
+        },
+        "WKURS": {
+            "description": "Taux conversion",
+            "type": "DEC"
+        },
+        "BUKRS": {
+            "description": "Société",
+            "type": "CHAR"
+        },
+        "IHRAN": {
+            "description": "Date de l'offre",
+            "type": "DATS"
+        },
+        "KTWRT": {
+            "description": "Valeur cible",
+            "type": "CURR"
+        },
+        "REVNO": {
+            "description": "Version",
+            "type": "CHAR"
+        },
+        "VERKF": {
+            "description": "Resp.des ventes",
+            "type": "CHAR"
+        },
+        "ZTERM": {
+            "description": "Cond. paiemt",
+            "type": "CHAR"
+        },
+        "ZZACER": {
+            "description": "Code Acertis",
+            "type": "CHAR"
+        },
+        "ZZAUTEURGAIN": {
+            "description": "Auteur gain",
+            "type": "CHAR"
+        },
+        "ZZDELAI": {
+            "description": "Délai préavis recond",
+            "type": "CHAR"
+        },
+        "ZZDTE_PRES_CMP": {
+            "description": "Date Prés. CCMP",
+            "type": "DATS"
+        },
+        "ZZDTE_PUBL_JO": {
+            "description": "Date Publ. JO",
+            "type": "DATS"
+        },
+        "ZZDTE_SIGN": {
+            "description": "Date de sign.",
+            "type": "DATS"
+        },
+        "ZZGAC_SUPPL": {
+            "description": "GAC supplémentaire",
+            "type": "CHAR"
+        },
+        "ZZGAIN": {
+            "description": "Mnt de Réf.",
+            "type": "CHAR"
+        },
+        "ZZHIERAR": {
+            "description": "Contrat",
+            "type": "CHAR"
+        },
+        "ZZINDAC": {
+            "description": "Acompte",
+            "type": "CHAR"
+        },
+        "ZZINDANN": {
+            "description": "Annexe 9",
+            "type": "CHAR"
+        },
+        "ZZINDAVE": {
+            "description": "Saisir avenant",
+            "type": "CHAR"
+        },
+        "ZZINDDEVCT": {
+            "description": "Dévelop. Durable",
+            "type": "CHAR"
+        },
+        "ZZINDHPROC": {
+            "description": "Hors Proc.",
+            "type": "CHAR"
+        },
+        "ZZINDIMM": {
+            "description": "Invest.",
+            "type": "CHAR"
+        },
+        "ZZINDMIX": {
+            "description": "AchMixte",
+            "type": "CHAR"
+        },
+        "ZZIND_AVANCE": {
+            "description": "Avance",
+            "type": "CHAR"
+        },
+        "ZZIND_ECH": {
+            "description": "Contrat terme Ech.",
+            "type": "CHAR"
+        },
+        "ZZIND_HRSPROC": {
+            "description": "Hors procédure",
+            "type": "CHAR"
+        },
+        "ZZINTMETIER": {
+            "description": "Inter métier",
+            "type": "CHAR"
+        },
+        "ZZLIBELLE": {
+            "description": "Libellé contrat",
+            "type": "CHAR"
+        },
+        "ZZMNTAV": {
+            "description": "Mnt acompte",
+            "type": "CHAR"
+        },
+        "ZZMNT_AV": {
+            "description": "Montant avance",
+            "type": "CHAR"
+        },
+        "ZZMNT_MINHT": {
+            "description": "Montant Mini. HT",
+            "type": "CHAR"
+        },
+        "ZZMONTREF": {
+            "description": "Montant de référence",
+            "type": "CHAR"
+        },
+        "ZZMRAE": {
+            "description": "MntAEng.",
+            "type": "CHAR"
+        },
+        "ZZNBSER": {
+            "description": "N° de série",
+            "type": "CHAR"
+        },
+        "ZZONESHOT": {
+            "description": "Ctr. OneShot",
+            "type": "CHAR"
+        },
+        "ZZRECONDTYP": {
+            "description": "Type de recond.",
+            "type": "CHAR"
+        },
+        "ZZTYPEFLUX": {
+            "description": "Type de flux",
+            "type": "CHAR"
+        },
+        "ZZVIVIER": {
+            "description": "N° de vivier",
+            "type": "CHAR"
+        },
+        "ZZ_KONNR": {
+            "description": "Contrat",
+            "type": "CHAR"
+        },
+        "AFNAM": {
+            "description": "Demandeur",
+            "type": "CHAR"
+        },
+        "AKTNR": {
+            "description": "Action",
+            "type": "CHAR"
+        },
+        "AKTWE": {
+            "description": "Qté EM actuelle",
+            "type": "QUAN"
+        },
+        "ALIEF": {
+            "description": "Livraisons",
+            "type": "DEC"
+        },
+        "BSGRU": {
+            "description": "Motif commande",
+            "type": "CHAR"
+        },
+        "BWAPPLNM": {
+            "description": "Composante applicat.",
+            "type": "CHAR"
+        },
+        "ELIKZ": {
+            "description": "Livrais.finale",
+            "type": "CHAR"
+        },
+        "EMATN": {
+            "description": "Article",
+            "type": "CHAR"
+        },
+        "EREKZ": {
+            "description": "Facture finale",
+            "type": "CHAR"
+        },
+        "KONNR": {
+            "description": "Contrat",
+            "type": "CHAR"
+        },
+        "KTMNG": {
+            "description": "Quantité cible",
+            "type": "QUAN"
+        },
+        "KTPNR": {
+            "description": "Poste contrat",
+            "type": "NUMC"
+        },
+        "KZMAB": {
+            "description": "Code écart qté",
+            "type": "CHAR"
+        },
+        "KZPOS": {
+            "description": "C. cpteur pos.",
+            "type": "CHAR"
+        },
+        "KZTAB": {
+            "description": "Code écart dél.",
+            "type": "CHAR"
+        },
+        "LAVI": {
+            "description": "AvisLivr.",
+            "type": "DEC"
+        },
+        "LFZTA": {
+            "description": "Total délais l.",
+            "type": "DEC"
+        },
+        "LGORT": {
+            "description": "Magasin",
+            "type": "CHAR"
+        },
+        "LMEIN": {
+            "description": "UQ de base",
+            "type": "UNIT"
+        },
+        "MABW": {
+            "description": "Ecart qté livr.",
+            "type": "DEC"
+        },
+        "MATKL": {
+            "description": "Grpe marchand.",
+            "type": "CHAR"
+        },
+        "MATNR": {
+            "description": "Article",
+            "type": "CHAR"
+        },
+        "MEINS": {
+            "description": "Unité d'achat",
+            "type": "UNIT"
+        },
+        "MENGE": {
+            "description": "Qté commandée",
+            "type": "QUAN"
+        },
+        "NETPR": {
+            "description": "Prix net",
+            "type": "CURR"
+        },
+        "NETWR": {
+            "description": "Val. nette cde",
+            "type": "CURR"
+        },
+        "PEINH": {
+            "description": "Base de prix",
+            "type": "DEC"
+        },
+        "PSTYP": {
+            "description": "Type de poste",
+            "type": "CHAR"
+        },
+        "PWEV": {
+            "description": "Note cons.expéd",
+            "type": "DEC"
+        },
+        "PWFR": {
+            "description": "Respect délais",
+            "type": "DEC"
+        },
+        "PWMT": {
+            "description": "Note resp.qtés",
+            "type": "DEC"
+        },
+        "PWTT": {
+            "description": "Note resp.délai",
+            "type": "DEC"
+        },
+        "PWWE": {
+            "description": "Qualité",
+            "type": "DEC"
+        },
+        "REPOS": {
+            "description": "Entrée factures",
+            "type": "CHAR"
+        },
+        "TABW": {
+            "description": "Ecart dél.livr.",
+            "type": "DEC"
+        },
+        "TXZ01": {
+            "description": "Désignation",
+            "type": "CHAR"
+        },
+        "UMREN": {
+            "description": "Dénominateur",
+            "type": "DEC"
+        },
+        "UMREZ": {
+            "description": "Correspond à",
+            "type": "DEC"
+        },
+        "WEBRE": {
+            "description": "CF basé/EM",
+            "type": "CHAR"
+        },
+        "WEPOS": {
+            "description": "Entrée march.",
+            "type": "CHAR"
+        },
+        "WERKS": {
+            "description": "Division",
+            "type": "CHAR"
+        },
+        "XERSY": {
+            "description": "Fact.Autom. EM",
+            "type": "CHAR"
+        },
+        "ZWERT": {
+            "description": "Valeur cible",
+            "type": "CURR"
+        },
+        "BEDNR": {
+            "description": "Nº de besoin",
+            "type": "CHAR"
+        },
+        "EFFWR": {
+            "description": "Valeur réelle",
+            "type": "CURR"
+        },
+        "KNTTP": {
+            "description": "Type imputation",
+            "type": "CHAR"
+        },
+        "LOEKZ": {
+            "description": "Code suppress.",
+            "type": "CHAR"
+        },
+        "MWSKZ": {
+            "description": "Code TVA",
+            "type": "CHAR"
+        },
+        "NAVNW": {
+            "description": "TVA non déduct.",
+            "type": "CURR"
+        },
+        "ZZCENTRECOUT": {
+            "description": "Centre Coût",
+            "type": "CHAR"
+        },
+        "ZZDADATE": {
+            "description": "DA créée le",
+            "type": "DATS"
+        },
+        "ZZIMCH": {
+            "description": "Immo/Charge",
+            "type": "CHAR"
+        },
+        "ZZIMINI": {
+            "description": "N° ImmoInit.",
+            "type": "CHAR"
+        },
+        "ZZINDDEV": {
+            "description": "Dévelop. Durable",
+            "type": "CHAR"
+        },
+        "ZZNUMDA": {
+            "description": "N° demande Ach.",
+            "type": "CHAR"
+        },
+        "ZZNUMPOS": {
+            "description": "Poste DA",
+            "type": "CHAR"
+        },
+        "ZZRECUPTVA": {
+            "description": "Caractère récupérabl",
+            "type": "CHAR"
+        },
+        "ZZREF": {
+            "description": "Réf.Article",
+            "type": "CHAR"
+        },
+        "ZZREFCONTRAT": {
+            "description": "Référe contrat",
+            "type": "CHAR"
+        },
+        "ZZREFPOSTECTR": {
+            "description": "Réf poste cont",
+            "type": "NUMC"
+        },
+        "ZZREGATE": {
+            "description": "Code REGATE",
+            "type": "CHAR"
+        },
+        "ZZSUBINI": {
+            "description": "N° SubsIni",
+            "type": "CHAR"
+        },
+        "ZZTXTVA": {
+            "description": "Taux de TVA",
+            "type": "CHAR"
+        },
+        "ZZTYPBZ": {
+            "description": "N° Immo DTC",
+            "type": "CHAR"
+        },
+        "ZZ_ABLAD": {
+            "description": "Point déchargmt",
+            "type": "CHAR"
+        },
+        "ZZ_AUFNR": {
+            "description": "Ordre",
+            "type": "CHAR"
+        },
+        "ZZ_BEWTP": {
+            "description": "Type histo cde",
+            "type": "CHAR"
+        },
+        "ZZ_BLDAT": {
+            "description": "Date pièce",
+            "type": "DATS"
+        },
+        "ZZ_BWART": {
+            "description": "Code mouvement",
+            "type": "CHAR"
+        },
+        "ZZ_DMBTR": {
+            "description": "Montant DI",
+            "type": "CURR"
+        },
+        "ZZ_DOC_PARK_DAT": {
+            "description": "Date pré",
+            "type": "DATS"
+        },
+        "ZZ_DOC_POST_DAT": {
+            "description": "Date comptabi.",
+            "type": "DATS"
+        },
+        "ZZ_EINDT": {
+            "description": "DateLivr.",
+            "type": "DATS"
+        },
+        "ZZ_GSBER": {
+            "description": "Dom.activité",
+            "type": "CHAR"
+        },
+        "ZZ_KOKRS": {
+            "description": "Périmètre ana.",
+            "type": "CHAR"
+        },
+        "ZZ_KOSTL": {
+            "description": "Centre de coûts",
+            "type": "CHAR"
+        },
+        "ZZ_MENGE": {
+            "description": "Quantité",
+            "type": "QUAN"
+        },
+        "ZZ_MWSKZ": {
+            "description": "Code TVA",
+            "type": "CHAR"
+        },
+        "ZZ_NBPEF": {
+            "description": "Nombre de postes",
+            "type": "NUMC"
+        },
+        "ZZ_PS_POSID": {
+            "description": "Elément d'OTP",
+            "type": "CHAR"
+        },
+        "ZZ_PS_PSP_PNR": {
+            "description": "Elément d'OTP",
+            "type": "NUMC"
+        },
+        "ZZ_REEWR": {
+            "description": "Valeur facturée",
+            "type": "CURR"
+        },
+        "ZZ_SAKTO": {
+            "description": "Compte général",
+            "type": "CHAR"
+        },
+        "ZZ_VGABE": {
+            "description": "Type opération",
+            "type": "CHAR"
+        },
+        "ZZ_XRECH": {
+            "description": "Facture",
+            "type": "CHAR"
+        },
+        "ZZ_ZEKKN": {
+            "description": "N° imputation",
+            "type": "NUMC"
+        },
+        "QUAN_INT": {
+            "description": "Interv. qtés",
+            "type": "DEC"
+        },
+        "TIME_INT": {
+            "description": "Intervalle dates",
+            "type": "DEC"
+        },
+        "NOTIME": {
+            "description": "Cpteur interv.dates",
+            "type": "DEC"
+        },
+        "NOQUAN": {
+            "description": "Cpteur interv. qtés",
+            "type": "DEC"
+        },
+        "NOPOS": {
+            "description": "Compteur postes",
+            "type": "DEC"
+        },
+        "PWLIF": {
+            "description": "Fourn. march.",
+            "type": "CHAR"
+        },
+        "PREST": {
+            "description": "Auteur facture",
+            "type": "CHAR"
+        },
+        "PLIWK": {
+            "description": "Divis.cédante",
+            "type": "CHAR"
+        },
+        "PLIEF": {
+            "description": "Fourn.parten.",
+            "type": "CHAR"
+        },
+        "PBEST": {
+            "description": "Adresse cde",
+            "type": "CHAR"
+        },
+        "MGABW": {
+            "description": "Coef.lissage EQ",
+            "type": "DEC"
+        },
+        "LFABW": {
+            "description": "Coeff.lissage",
+            "type": "DEC"
+        },
+        "MAXBW": {
+            "description": "Meilleure note",
+            "type": "DEC"
+        },
+        "VVABW": {
+            "description": "Coeff.l.cns.ex.",
+            "type": "DEC"
+        },
+        "UZEIT": {
+            "description": "Heure",
+            "type": "TIMS"
+        },
+        "MCEX_UEBTO": {
+            "description": "Tol.livr.excéd.",
+            "type": "DEC"
+        },
+        "MCEX_UEBTK": {
+            "description": "Illimité",
+            "type": "CHAR"
+        },
+        "MCEX_UNTTO": {
+            "description": "Tol.livr.incom.",
+            "type": "DEC"
+        },
+        "ZZ_EREV_EXTNR": {
+            "description": "Numéro externe",
+            "type": "CHAR"
+        },
+        "ZZ_EREV_ERDAT": {
+            "description": "Créé le",
+            "type": "DATS"
+        },
+        "ZZ_EREV_ERUHR": {
+            "description": "Heure",
+            "type": "TIMS"
+        },
+        "ZZ_FI_BELNR": {
+            "description": "Nº pièce",
+            "type": "CHAR"
+        },
+        "ZZ_BLART": {
+            "description": "Type de pièce",
+            "type": "CHAR"
+        }
+    }
+}
