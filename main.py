@@ -22,9 +22,33 @@ def nonMatchingElements(listA, listB):
     return list(set(listA) - set(listB))
 
 
+def generateHeaderJson(filename):
+    data = {
+        "$schema": "http://json-schema.org/schema#",
+	    "self": {
+		"vendor": "laposte.fr",
+		"name": filename,
+		"format": "jsonschema"
+	    },
+	    "$metadata": {
+            "$datasource": filename,
+            "$dataset": "client",
+            "$fileFormat": "CSV",
+            "$nameFormat": "??",
+            "$separator": "|",
+            "$quote": "\"",
+            "$escape": "\\",
+            "$ingestionMode": "APPEND",
+            "$dataVector": "FILE",
+            "$dateFormat": "yyyy-MM-dd",
+            "$dateTimeFormat": "MM-dd-yyyy HH:mm:ss"
+	    }
+    }
+    return data
+
 # Generates a Json from the word table
-def generateJson(word_table):
-    data = {'properties': {}}
+def generateJson(word_table, filename):
+    data = {'': generateHeaderJson(filename), 'properties': {}}
     fieldsJson = {}
 
     for item in word_table:
@@ -38,8 +62,8 @@ def generateJson(word_table):
 # Dumps the Json generated into a file
 # TODO : reorganize paths
 def writeJson(filename, word_table):
-    data = generateJson(word_table)
-    with open(f'generatedJson/json_{filename}', 'w', encoding='utf-8') as output_file:
+    data = generateJson(word_table, filename)
+    with open(f'generatedJson/json_{filename}.json', 'w', encoding='utf-8') as output_file:
         json.dump(data, output_file, ensure_ascii=False, indent=4)
 
 

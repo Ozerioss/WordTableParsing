@@ -1,4 +1,28 @@
 {
+    "$schema": "http://json-schema.org/schema#",
+    "self": {
+        "vendor": "laposte.fr",
+        "name": "epkfdach",
+        "format": "jsonschema"
+    },
+    "$metadata": {
+        "$datasource": "RSDS 2LIS_02_ITM CEDCLNT220",
+        "$dataset": "ZMMH_ITM",
+        "$fileFormat": "CSV",
+        "$nameFormat": "??",
+        "$separator": "|",
+        "$quote": "\"",
+        "$escape": "\\",
+        "$ingestionMode": "APPEND",
+        "$dataVector": "FILE",
+        "$dateFormat": "yyyy-MM-dd",
+        "$dateTimeFormat": "MM-dd-yyyy HH:mm:ss"
+    },
+    "id": "??",
+	"title": "??",
+	"description": "Open HUB Grand_livre_0FI_GL_14",
+	"type": "object",
+	"required": ["??"],	
     "properties": {
         "HORODATE": {
             "description": "",
