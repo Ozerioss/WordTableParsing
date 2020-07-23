@@ -1,0 +1,157 @@
+{
+	"$schema": "http://json-schema.org/schema#",
+	"self": {
+		"vendor": "laposte.fr",
+		"name": "webburaliste_client",
+		"format": "jsonschema",
+		"version": "0.0.2"
+	},
+	"$metadata": {
+		"$datasource": "webburaliste",
+		"$dataset": "client",
+		"$fileFormat": "CSV",
+		"$nameFormat": "client.*\\.csv\\.bz2",
+		"$separator": "|",
+		"$quote": "\"",
+		"$escape": "\\",
+		"$ingestionMode": "APPEND",
+		"$dataVector": "FILE",
+		"$dateFormat": "yyyy-MM-dd",
+		"$dateTimeFormat": "MM-dd-yyyy HH:mm:ss"
+	},
+	"id": "WEBBURALISTE_Client_v0.0.2.json",
+	"title": "WEBBURALISTE_Client",
+	"description": "Schema du flux Web Buraliste relatif aux enregitrements des clients( type d'enregistrement : CLI)",
+	"type": "object",
+	"required": ["CO_TYP_ENR", "ID_CLI_SO"],	
+	"properties": {
+		"CO_TYP_ENR": {
+			"description": "Type d'enregistrement A initialiser à partir de la variable de configuration TypeEnregistremeneClientsRmx Valeur : CLI",
+			"type": "string", 
+			"$metadata": {
+				"$privacyLevel": "D"
+			}
+		},
+		"CO_SYS_EMT": {
+			"description": "Code application A initialiser à partir de la variable de configuration TypeFlux Valeur : WB",
+			"type": "string", 
+			"$metadata": {
+				"$privacyLevel": "D"
+			}
+		},
+		"ID_CLI_SO": {
+			"description": "Identifiant Client Hybris Web Buralistes (PK)",
+			"type": "string", 
+			"$metadata": {
+				"$privacyLevel": "C",
+				"$tags": [{"rdfs:domain":"http://schema.org/Person"},{"rdf:type":"http://rdfs.org/sioc/ns#id"}]
+			}
+		},
+		"NOM_CLI_SO": {
+			"description": "Raison sociale, Nom du client tel qu’il a été renseigné dans l’application d’Origine.",
+			"type": "string",
+			"$metadata": {
+				"$privacyLevel": "D"
+			}
+		},
+		"LB_LIG_ADR_1": {
+			"description": "Adresse de livraison : identification du destinataire Initialiser avec nom / raison sociale",
+			"type": "string",
+			"$metadata": {
+				"$privacyLevel": "D"
+			}
+		},
+		"LB_LIG_ADR_2": {
+			"description": "Adresse de livraison : libellé point de remise du courrier",
+			"type": "string", 
+			"$metadata": {
+				"$privacyLevel": "D"
+			}
+		},
+		"LB_LIG_ADR_3": {
+			"description": "Adresse de livraison : mention complémentaire point géographique",
+			"type": "string", 
+			"$metadata": {
+				"$privacyLevel": "D"
+			}
+		},
+		"LB_LIG_ADR_4": {
+			"description": "Libellé ligne adresse 4",
+			"type": "string", 
+			"$metadata": {
+				"$privacyLevel": "D"
+			}
+		},
+		"LB_LIG_ADR_5": {
+			"description": "Libellé ligne adresse 5",
+			"type": "string", 
+			"$metadata": {
+				"$privacyLevel": "D"
+			}
+		},
+		"LB_LIG_ADR_6": {
+			"description": "Libellé ligne adresse 6",
+			"type": "string", 
+			"$metadata": {
+				"$privacyLevel": "D"
+			}
+		},
+		"LB_LIG_ADR_7": {
+			"description": "Libellé ligne adresse 7",
+			"type": "string", 
+			"$metadata": {
+				"$privacyLevel": "D"
+			}
+		},
+		"CO_ENT_RGT": {
+			"description": "Code de l’entitée regate correspondant au client",
+			"type": "string", 
+			"$metadata": {
+				"$privacyLevel": "D"
+			}
+		},
+		"CO_APPORT": {
+			"type": "string",
+			"description": "Code apporteur", 
+			"$metadata": {
+				"$privacyLevel": "D"
+			}
+		},
+		"NO_SIRET": {
+			"description": "Numéro de Siret du client",
+			"type": "string", 
+			"$metadata": {
+				"$privacyLevel": "D"
+			}
+		},
+		"NO_CARTE_PRO": {
+			"description": "Numéro de la Carte PRO",
+			"type": "string", 
+			"$metadata":{ 
+				"$privacyLevel":"C"
+			}
+		},
+		"CO_PRO_PART": {
+			"description": "Code  A initialiser à partir de la variable de configuration CodeProPart Initialiser avec la valeur: PART",
+			"type": "string", 
+			"$metadata": {
+				"$privacyLevel": "D"
+			}
+		},
+		"CO_CLI_COU": {
+			"description": "Code identifiant COCLICO A initialiser avec code client courrier Coclico, lorsque celui-ci est connu du Web Buraliste",
+			"type": "string", 
+			"$metadata": {
+				"$privacyLevel": "D"
+			}
+		},
+		"DT_CRT_CTR": {
+			"description": "Date de création du contrat",
+			"type": "string",
+			"format": "datetime",
+			"$metadata": {
+				"$privacyLevel": "D"
+			}
+		}
+	}
+}
