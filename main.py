@@ -42,13 +42,14 @@ def generateHeaderJson(filename):
             "$dataVector": "FILE",
             "$dateFormat": "yyyy-MM-dd",
             "$dateTimeFormat": "MM-dd-yyyy HH:mm:ss"
-	    }
+	    },
+        "properties": {}
     }
     return data
 
 # Generates a Json from the word table
 def generateJson(word_table, filename):
-    data = {'': generateHeaderJson(filename), 'properties': {}}
+    data = generateHeaderJson(filename)
     fieldsJson = {}
 
     for item in word_table:
@@ -60,7 +61,6 @@ def generateJson(word_table, filename):
     return data
 
 # Dumps the Json generated into a file
-# TODO : reorganize paths
 def writeJson(filename, word_table):
     data = generateJson(word_table, filename)
     with open(f'generatedJson/json_{filename}.json', 'w', encoding='utf-8') as output_file:
