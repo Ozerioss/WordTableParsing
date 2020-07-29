@@ -32,7 +32,7 @@ def generateHeaderJson(filename):
 	    },
 	    "$metadata": {
             "$datasource": filename,
-            "$dataset": "client",
+            "$dataset": "A remplir",
             "$fileFormat": "CSV",
             "$nameFormat": "??",
             "$separator": "|",

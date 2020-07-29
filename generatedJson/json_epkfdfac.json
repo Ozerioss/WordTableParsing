@@ -1,24 +1,22 @@
 {
-    "": {
-        "$schema": "http://json-schema.org/schema#",
-        "self": {
-            "vendor": "laposte.fr",
-            "name": "epkfdfac",
-            "format": "jsonschema"
-        },
-        "$metadata": {
-            "$datasource": "epkfdfac",
-            "$dataset": "client",
-            "$fileFormat": "CSV",
-            "$nameFormat": "??",
-            "$separator": "|",
-            "$quote": "\"",
-            "$escape": "\\",
-            "$ingestionMode": "APPEND",
-            "$dataVector": "FILE",
-            "$dateFormat": "yyyy-MM-dd",
-            "$dateTimeFormat": "MM-dd-yyyy HH:mm:ss"
-        }
+    "$schema": "http://json-schema.org/schema#",
+    "self": {
+        "vendor": "laposte.fr",
+        "name": "epkfdfac",
+        "format": "jsonschema"
+    },
+    "$metadata": {
+        "$datasource": "epkfdfac",
+        "$dataset": "client",
+        "$fileFormat": "CSV",
+        "$nameFormat": "??",
+        "$separator": "|",
+        "$quote": "\"",
+        "$escape": "\\",
+        "$ingestionMode": "APPEND",
+        "$dataVector": "FILE",
+        "$dateFormat": "yyyy-MM-dd",
+        "$dateTimeFormat": "MM-dd-yyyy HH:mm:ss"
     },
     "properties": {
         "HORODATE": {
