@@ -43,7 +43,7 @@ def generateHeaderJson(filename):
             "$dateFormat": "yyyy-MM-dd",
             "$dateTimeFormat": "MM-dd-yyyy HH:mm:ss"
 	    },
-        "id": "??",
+        "id": f"json_{filename}.json",
         "title": "Open Hub",
         "description": "??",
         "type": "object",
