@@ -6,8 +6,8 @@
         "format": "jsonschema"
     },
     "$metadata": {
-        "$datasource": "epkfdfac",
-        "$dataset": "client",
+        "$datasource": "??",
+        "$dataset": "??",
         "$fileFormat": "CSV",
         "$nameFormat": "??",
         "$separator": "|",
@@ -18,6 +18,10 @@
         "$dateFormat": "yyyy-MM-dd",
         "$dateTimeFormat": "MM-dd-yyyy HH:mm:ss"
     },
+    "id": "??",
+    "title": "Open Hub",
+    "description": "??",
+    "type": "object",
     "properties": {
         "HORODATE": {
             "description": "TimeStamp",

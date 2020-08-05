@@ -31,8 +31,8 @@ def generateHeaderJson(filename):
 		"format": "jsonschema"
 	    },
 	    "$metadata": {
-            "$datasource": filename,
-            "$dataset": "A remplir",
+            "$datasource": "??",
+            "$dataset": "??",
             "$fileFormat": "CSV",
             "$nameFormat": "??",
             "$separator": "|",
@@ -43,6 +43,10 @@ def generateHeaderJson(filename):
             "$dateFormat": "yyyy-MM-dd",
             "$dateTimeFormat": "MM-dd-yyyy HH:mm:ss"
 	    },
+        "id": "??",
+        "title": "Open Hub",
+        "description": "??",
+        "type": "object",
         "properties": {}
     }
     return data
