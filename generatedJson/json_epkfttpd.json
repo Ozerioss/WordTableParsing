@@ -6,10 +6,10 @@
         "format": "jsonschema"
     },
     "$metadata": {
-        "$datasource": "??",
-        "$dataset": "??",
+        "$datasource": "ZFI_CODE_TVA_MWSKZ_A985_ATTR CEDCLNT220",
+        "$dataset": "ZMMH_PT",
         "$fileFormat": "CSV",
-        "$nameFormat": "??",
+        "$nameFormat": "equinox.*\\.csv\\.bz2",
         "$separator": "|",
         "$quote": "\"",
         "$escape": "\\",
@@ -20,7 +20,7 @@
     },
     "id": "json_epkfttpd.json",
     "title": "Open Hub",
-    "description": "??",
+    "description": "Open Taux_Part_Déd_MWSKZ_A985",
     "type": "object",
     "properties": {
         "HORODATE": {

@@ -6,10 +6,10 @@
         "format": "jsonschema"
     },
     "$metadata": {
-        "$datasource": "??",
-        "$dataset": "??",
+        "$datasource": "0FI_GL_14 CEDCLNT220",
+        "$dataset": "ZMMH_GL14",
         "$fileFormat": "CSV",
-        "$nameFormat": "??",
+        "$nameFormat": "equinox.*\\.csv\\.bz2",
         "$separator": "|",
         "$quote": "\"",
         "$escape": "\\",
@@ -20,7 +20,7 @@
     },
     "id": "json_epkfdcpt.json",
     "title": "Open Hub",
-    "description": "??",
+    "description": "Open HUB Grand_livre_0FI_GL_14",
     "type": "object",
     "properties": {
         "HORODATE": {

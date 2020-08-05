@@ -6,10 +6,10 @@
         "format": "jsonschema"
     },
     "$metadata": {
-        "$datasource": "??",
-        "$dataset": "??",
+        "$datasource": "ZFI_PREENREG_VBSEGK_TRAN CEDCLNT220",
+        "$dataset": "ZMMH_PREE",
         "$fileFormat": "CSV",
-        "$nameFormat": "??",
+        "$nameFormat": "equinox.*\\.csv\\.bz2",
         "$separator": "|",
         "$quote": "\"",
         "$escape": "\\",
@@ -20,7 +20,7 @@
     },
     "id": "json_epkfpppf.json",
     "title": "Open Hub",
-    "description": "??",
+    "description": "",
     "type": "object",
     "properties": {
         "HORODATE": {

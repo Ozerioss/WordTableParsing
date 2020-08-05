@@ -6,10 +6,10 @@
         "format": "jsonschema"
     },
     "$metadata": {
-        "$datasource": "??",
-        "$dataset": "??",
+        "$datasource": "2LIS_02_ITM CEDCLNT220",
+        "$dataset": "ZMMH_ITM",
         "$fileFormat": "CSV",
-        "$nameFormat": "??",
+        "$nameFormat": "equinox.*\\.csv\\.bz2",
         "$separator": "|",
         "$quote": "\"",
         "$escape": "\\",
@@ -20,7 +20,7 @@
     },
     "id": "json_epkfdach.json",
     "title": "Open Hub",
-    "description": "??",
+    "description": "Open HUB Achats_2LIS_02_ITM",
     "type": "object",
     "properties": {
         "HORODATE": {

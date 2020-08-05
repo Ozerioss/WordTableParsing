@@ -6,10 +6,10 @@
         "format": "jsonschema"
     },
     "$metadata": {
-        "$datasource": "??",
-        "$dataset": "??",
+        "$datasource": "2LIS_06_INV CEDCLNT220",
+        "$dataset": "ZMMH_INV",
         "$fileFormat": "CSV",
-        "$nameFormat": "??",
+        "$nameFormat": "equinox.*\\.csv\\.bz2",
         "$separator": "|",
         "$quote": "\"",
         "$escape": "\\",
@@ -20,7 +20,7 @@
     },
     "id": "json_epkfdfac.json",
     "title": "Open Hub",
-    "description": "??",
+    "description": "Open HUB Factures 2LIS_06_INV",
     "type": "object",
     "properties": {
         "HORODATE": {
