@@ -34,7 +34,7 @@ def generateHeaderJson(filename):
             "$datasource": "??",
             "$dataset": "??",
             "$fileFormat": "CSV",
-            "$nameFormat": "equinox.*\\.csv\\.bz2",
+            "$nameFormat": f"{filename}.*\\.csv\\.bz2",
             "$separator": "|",
             "$quote": "\"",
             "$escape": "\\",
