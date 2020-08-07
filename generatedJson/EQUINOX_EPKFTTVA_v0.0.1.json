@@ -13,7 +13,7 @@
         "$separator": ";",
         "$quote": "\"",
         "$escape": "\\",
-        "$ingestionMode": "APPEND",
+        "$ingestionMode": "FULL",
         "$dataVector": "FILE",
         "$dateFormat": "YYYYMMDD",
         "$dateTimeFormat": "YYYYMMDD HH:mm:ss"

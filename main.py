@@ -4,6 +4,15 @@ import pandas
 import json
 
 
+### Little script used to generate JSON files by reading docx tables
+### For the parsing to work the tables need to be correctly formatted ( amount of cells in table ) and to make parsing easier only the table is found in every docx file
+### Some fields could still be extracted automatically mais la flemme en vrai 
+### The fields that are not parsed automatically and require a human to input them are labeled '??'
+### The first step is parsing the docx table into a dictionary ( to access all columns by field name ) then we generate the JSON object with the header info and the properties extracted
+### This script was made so I don't lose my sanity could have used more thought and care
+
+
+# TODO : delete useless functions
 def readCsvColumns(filename):
     with open('JDD/epkfdcpt.s5_0000121296_20200622_140027', newline='') as csvfile:
         reader = csv.reader(csvfile, delimiter = ';')
@@ -15,6 +24,7 @@ def readCsvColumnsPanda(filename):
     data = pandas.read_csv(f'JDD/copy/{filename}', delimiter=";")
     return data.columns
 
+# Functions used just for checking the difference between headers should probably delete
 def matchingElements(listA, listB):
     return set(listA).intersection(listB)
 
