@@ -18,8 +18,8 @@
         "$dateFormat": "YYYYMMDD",
         "$dateTimeFormat": "YYYYMMDD HH:mm:ss"
     },
-    "id": "json_epkfttpd.json",
-    "title": "Open Hub",
+    "id": "Open Hub",
+    "title": "EQUINOX_EPKFTTPD",
     "description": "Open Taux_Part_Déd_MWSKZ_A985",
     "type": "object",
     "properties": {

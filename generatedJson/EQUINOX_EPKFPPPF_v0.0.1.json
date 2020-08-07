@@ -18,8 +18,8 @@
         "$dateFormat": "YYYYMMDD",
         "$dateTimeFormat": "YYYYMMDD HH:mm:ss"
     },
-    "id": "json_epkfpppf.json",
-    "title": "Open Hub",
+    "id": "Open Hub",
+    "title": "EQUINOX_EPKFPPPF",
     "description": "",
     "type": "object",
     "properties": {

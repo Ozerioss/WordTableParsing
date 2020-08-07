@@ -43,8 +43,8 @@ def generateHeaderJson(filename):
             "$dateFormat": "yyyy-MM-dd",
             "$dateTimeFormat": "MM-dd-yyyy HH:mm:ss"
 	    },
-        "id": f"json_{filename}.json",
-        "title": "Open Hub",
+        "id": "Open Hub",
+        "title": f"EQUINOX_{filename}",
         "description": "??",
         "type": "object",
         "properties": {}
