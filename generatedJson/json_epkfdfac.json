@@ -6,8 +6,8 @@
         "format": "jsonschema"
     },
     "$metadata": {
-        "$datasource": "2LIS_06_INV CEDCLNT220",
-        "$dataset": "ZMMH_INV",
+        "$datasource": "2lis_06_inv cedclnt220",
+        "$dataset": "zmmh_inv",
         "$fileFormat": "CSV",
         "$nameFormat": "equinox.*\\.csv\\.bz2",
         "$separator": "|",
